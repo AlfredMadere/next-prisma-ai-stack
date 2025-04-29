@@ -6,9 +6,11 @@
     "dev": "next dev --turbopack",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "setup-dev:db": "scripts/add-dev-postgres.sh"
   },
   "dependencies": {
+    "@prisma/client": "6.7.0",
     "@tanstack/react-query": "^5.74.9",
     "@tanstack/react-query-devtools": "^5.74.9",
     "class-variance-authority": "^0.7.1",
