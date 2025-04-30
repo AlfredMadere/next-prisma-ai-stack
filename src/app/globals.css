@@ -120,3 +120,20 @@
     @apply bg-background text-foreground;
   }
 }
+
+/* Debugging utility classes */
+.db-red {
+  @apply border border-red-500;
+}
+
+.db-green {
+  @apply border border-green-500;
+}
+
+.db-blue {
+  @apply border border-blue-500;
+}
+
+.db-purple {
+  @apply border border-purple-500;
+}
